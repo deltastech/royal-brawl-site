@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Royal Brawl</title>
+<meta name="description" content="Royal Brawl: iPhone için tek elle oynanan, çevrimdışı roguelite aksiyon oyunu.">
+<meta property="og:image" content="assets/brand/og.jpg">
+<link rel="icon" href="assets/brand/favicon.png"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><img src="assets/brand/icon.png" alt=""><b>Royal Brawl</b><nav><a href="support.html">Destek</a><a href="privacy.html">Gizlilik</a></nav></header>
+
+<section class="scene"><video autoplay muted loop playsinline poster="assets/world/scene-01-mobile-poster.jpg" src="assets/world/scene-01-mobile.mp4"></video>
+<div class="card"><small>iPhone için roguelite aksiyon</small><h2>Krallık seni çağırıyor</h2>
+<p>Tek elle oynanan, internet gerektirmeyen bir roguelite aksiyon oyunu. A one-handed, fully offline roguelite action game for iPhone.</p>
+<div class="tags"><span>Çevrimdışı / Offline</span><span>Tek el / One hand</span><span>Dikey / Portrait</span></div></div></section>
+
+<section class="scene"><video autoplay muted loop playsinline preload="none" poster="assets/world/scene-02-mobile-poster.jpg" src="assets/world/scene-02-mobile.mp4"></video>
+<div class="card"><small>Oynanış</small><h2>Kaydır, dur, ateşle</h2>
+<p>Parmağını kaydırarak hareket et; durduğun an kahramanın en yakın düşmana kendiliğinden ateş eder. Swipe to move, stop and your hero fires at the nearest enemy.</p>
+<div class="tags"><span>Bolt</span><span>Tincan</span><span>Rocket</span></div></div></section>
+
+<section class="scene"><video autoplay muted loop playsinline preload="none" poster="assets/world/scene-03-mobile-poster.jpg" src="assets/world/scene-03-mobile.mp4"></video>
+<div class="card"><small>Bölümler</small><h2>Bahçeden çöle, bölüm bölüm</h2>
+<p>Kraliyet bahçeleri, kanyon, zindan ve çöl. Yolda tüccarlar ve şans çarkı seni bekler; her seviyede yeni bir yetenek seç. Gardens, canyon, dungeon and desert, with merchants, a wheel of fortune and a new skill choice at every level-up.</p>
+<div class="tags"><span>Tüccar / Merchants</span><span>Şans çarkı / Wheel of fortune</span></div></div></section>
+
+<section class="scene"><video autoplay muted loop playsinline preload="none" poster="assets/world/scene-04-mobile-poster.jpg" src="assets/world/scene-04-mobile.mp4"></video>
+<div class="card"><small>Hurda Kral</small><h2>Hurda Kral'ı devir</h2>
+<p>Bronzdan efsaneviye 6 kademe yetenek, ekipman ve kart yuvası. Sandıklar, hayatta kalma bölümü ve dev bir boss. Six tiers from bronze to legendary, chests, a survival chapter and the Scrap King himself.</p>
+<div class="tags"><span>6 kademe / 6 tiers</span><span>Hayatta kalma / Survival</span></div></div></section>
+
+<footer>© 2026 Kazım Yazıcı · <a href="mailto:kazmyzc@outlook.com">kazmyzc@outlook.com</a> · <a href="support.html">Destek / Support</a> · <a href="privacy.html">Gizlilik / Privacy</a></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('in')),{threshold:.3});
+document.querySelectorAll('.card').forEach(c=>io.observe(c));
+</script>
+</body>
+</html>
